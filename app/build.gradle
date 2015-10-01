@@ -19,7 +19,13 @@ android {
     }
 }
 
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.github.rwl:jtransforms:2.4.0'
+    compile 'com.github.PhilJay:MPAndroidChart:v2.1.4'
 }
